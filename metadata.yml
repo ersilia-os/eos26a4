@@ -1,6 +1,6 @@
 Identifier: eos26a4
 Slug: lazychemvis-coconut
-Status: In progress
+Status: Ready
 Title: 2D Projector trained on Coconut
 Description: This model uses lazy-chemvis tool to performs PCA, UMAP, t-SNE and 
   TMAP projections taking the Coconut library with 715K compounds as a chemical 
@@ -34,6 +34,16 @@ Source Code: https://github.com/ersilia-os/lazy-chemvis
 License: MIT
 Contributor: Marina18
 Incorporation Date: '2026-03-23'
+Last Packaging Date: '2026-03-23'
+Release: v1.0.0
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos26a4.zip
+DockerHub: https://hub.docker.com/r/ersiliaos/eos26a4
+Docker Architecture: AMD64
 Model Size: 3043.0
 Environment Size: 8081.0
+Image Size: 12579.07
+Computational Performance 1: 44.33
+Computational Performance 2: 34.37
+Computational Performance 3: 87.7
+Computational Performance 4: 692.19
+Computational Performance 5: -1.0
