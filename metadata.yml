@@ -39,8 +39,8 @@ Release: v1.0.0
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos26a4.zip
 DockerHub: https://hub.docker.com/r/ersiliaos/eos26a4
 Docker Architecture: AMD64
-Model Size: 3043.0
-Environment Size: 8081.0
+Model Size: 1522.0
+Environment Size: 8082.0
 Image Size: 12579.07
 Computational Performance 1: 44.33
 Computational Performance 2: 34.37
