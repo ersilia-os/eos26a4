@@ -2,7 +2,7 @@
 
 This model uses lazy-chemvis tool to performs PCA, UMAP, t-SNE and TMAP projections taking the Coconut library with 715K compounds as a chemical space of reference. ECFP4 fingerprints (2048 bits) and RDKit physicochemical descriptors are used as molecular descriptors. Two coordinates are returned for each projection method.
 
-This model was incorporated on 2026-03-23.Last packaged on 2026-04-27.
+This model was incorporated on 2026-03-23.Last packaged on 2026-05-28.
 
 ## Information
 ### Identifiers
@@ -48,12 +48,12 @@ Below are the **Output Columns** of the model:
 ### Resource Consumption
 - **Model Size (Mb):** `198`
 - **Environment Size (Mb):** `8290`
-- **Image Size (Mb):** `12587.2`
+- **Image Size (Mb):** `8733.84`
 
 **Computational Performance (seconds):**
-- 10 inputs: `39.38`
-- 100 inputs: `89.96`
-- 10000 inputs: `-1`
+- 10 inputs: `39.16`
+- 100 inputs: `35.08`
+- 10000 inputs: `572.3`
 
 ### References
 - **Source Code**: [https://github.com/ersilia-os/lazy-chemvis](https://github.com/ersilia-os/lazy-chemvis)
