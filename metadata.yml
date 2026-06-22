@@ -34,16 +34,18 @@ Source Code: https://github.com/ersilia-os/lazy-chemvis
 License: MIT
 Contributor: Marina18
 Incorporation Date: '2026-03-23'
-Last Packaging Date: '2026-05-28'
+Last Packaging Date: '2026-06-22'
 Release: v1.2.0
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos26a4.zip
 DockerHub: https://hub.docker.com/r/ersiliaos/eos26a4
-Docker Architecture: AMD64
+Docker Architecture:
+  - AMD64
+  - ARM64
 Model Size: 198.0
 Environment Size: 8302.0
-Image Size: 8733.84
-Computational Performance 1: 39.16
-Computational Performance 2: 27.99
-Computational Performance 3: 35.08
-Computational Performance 4: 131.38
-Computational Performance 5: 572.3
+Image Size: 8757.13
+Computational Performance 1: 39.34
+Computational Performance 2: 27.16
+Computational Performance 3: 33.38
+Computational Performance 4: 129.58
+Computational Performance 5: 582.89
