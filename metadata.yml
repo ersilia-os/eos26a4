@@ -2,11 +2,7 @@ Identifier: eos26a4
 Slug: lazychemvis-coconut
 Status: Ready
 Title: 2D Projector trained on Coconut
-Description: This model uses lazy-chemvis tool to performs PCA, UMAP, t-SNE and 
-  TMAP projections taking the Coconut library with 715K compounds as a chemical 
-  space of reference. ECFP4 fingerprints (2048 bits) and RDKit physicochemical 
-  descriptors are used as molecular descriptors. Two coordinates are returned 
-  for each projection method.
+Description: Locates a molecule within COCONUT, a collection of roughly 715,000 open natural products, using PCA, UMAP, t-SNE and TMAP projections computed from ECFP4 fingerprints and RDKit descriptors. Comparing a compound against natural product space is useful when assessing whether synthetic chemistry has strayed into or away from the structural territory that produces bioactive metabolites. Coordinates are defined relative to this reference set and cannot be compared with projections built on other libraries.
 Deployment:
   - Local
 Source: Local
@@ -20,7 +16,7 @@ Output:
   - Value
 Output Dimension: 8
 Output Consistency: Fixed
-Interpretation: Coordinates of 2D projections, namely PCA, UMAP, tSNE and TMAP.
+Interpretation: Coordinates from PCA, UMAP, t-SNE and TMAP projections against the COCONUT natural product library.
 Tag:
   - Embedding
 Biomedical Area:
@@ -31,7 +27,7 @@ Publication Type: Other
 Publication Year: 2026
 Publication: https://github.com/ersilia-os/lazy-chemvis
 Source Code: https://github.com/ersilia-os/lazy-chemvis
-License: MIT
+License: GPL-3.0-or-later
 Contributor: Marina18
 Incorporation Date: '2026-03-23'
 Last Packaging Date: '2026-06-22'
