@@ -3,7 +3,7 @@
 Locates a molecule within COCONUT, a collection of roughly 715,000 open natural products, returning x and y coordinates from PCA, UMAP, t-SNE and TMAP. Comparing a compound against natural product space helps judge whether synthetic chemistry has strayed into or away from the structural territory that yields bioactive metabolites. Placement uses 2048-bit ECFP4 fingerprints and RDKit descriptors, and for UMAP, t-SNE and TMAP it leans on surrogate models fitted to the reference embedding rather than re-running the projection.
 
 This model was incorporated on 2026-03-23.
-Last packaged on 2026-09-25.
+Last packaged on 2026-11-19.
 
 ## Information
 ### Identifiers
@@ -49,12 +49,12 @@ Below are the **Output Columns** of the model:
 ### Resource Consumption
 - **Model Size (Mb):** `307`
 - **Environment Size (Mb):** `2060`
-- **Image Size (Mb):** `2510.92`
+- **Image Size (Mb):** `1982.1`
 
 **Computational Performance (seconds):**
-- 10 inputs: `34.23`
-- 100 inputs: `28.13`
-- 10000 inputs: `515.92`
+- 10 inputs: `30.87`
+- 100 inputs: `27.6`
+- 10000 inputs: `500.33`
 
 ### References
 - **Source Code**: [https://github.com/ersilia-os/lazy-chemvis](https://github.com/ersilia-os/lazy-chemvis)
