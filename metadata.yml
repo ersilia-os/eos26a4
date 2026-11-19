@@ -39,7 +39,7 @@ License: GPL-3.0-or-later
 Contributor: Marina18
 Incorporation Date: '2026-03-23'
 Last Packaging Date: '2026-11-19'
-Release: v1.2.0
+Release: v2.0.0
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos26a4.zip
 DockerHub: https://hub.docker.com/r/ersiliaos/eos26a4
 Docker Architecture:
